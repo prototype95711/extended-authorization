@@ -1,0 +1,26 @@
+{
+    "name": "protototype95711/authorization_system",
+    "authors": [
+        {
+            "name": "Gleb Perfilyev",
+            "email": "prototype955@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "config.php",
+            "init.php",
+            "functions/session.php",
+            "functions/notifions.php"
+        ],
+        "psr-4": {
+            "AuthorizationSystem\\": "src/",
+            "AuthorizationSystem\\Interfaces\\": "src/Intefaces/",
+            "AuthorizationSystem\\Abstractions\\": "src/Abstractions/"
+        }
+    },
+    "require": {
+        "colshrapnel/safemysql": "^1.1",
+        "smarty/smarty": "^5.8"
+    }
+}

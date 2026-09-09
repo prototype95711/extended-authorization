@@ -1,0 +1,1 @@
+<link rel='stylesheet' href='{$location}/templates/template/css/style.css' type='text/css' media='all' />
